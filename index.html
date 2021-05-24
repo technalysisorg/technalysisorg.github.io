@@ -5,52 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preload" href="lib/bootstrap/css/bootstrap.min.css" as="style" />
+    <link rel="preload" href="common/css/style.css" as="style" />
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="common/css/style.css" />
     <title>Technalysis</title>
   </head>
   <body>
-    <nav
-      class="
-        navbar navbar-expand-lg
-        justify-content-between
-        navbar-light
-        bg-light
-        m-2
-        p-2
-      "
-    >
-      <div class="container-fluid py-2 justify-content-between">
-        <a class="navbar-brand" href="index.html">Technalysis</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse align-self-end"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav ms-auto navbar-right">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <header>
+      <nav
+        class="
+          navbar navbar-expand-lg
+          align-items-center
+          navbar-dark
+          bg-primary
+          p-2
+        "
+      >
+        <div class="container-fluid py-2">
+          <a class="navbar-brand align-items-center" href="index.html">
+            <img src="img/logo.svg" alt="logo" />
+            <span class="fs-2">Technalysis</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <main class="m-2 p-2">
       <h1>coming soon!</h1>
     </main>
