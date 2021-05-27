@@ -70,18 +70,24 @@
         class="
           d-flex
           flex-column
+          flex-lg-row
           position-relative
           overflow-hidden
           align-items-center
+          justify-content-lg-around
         "
       >
         <img
-          class="w-25 h-25 mb-4"
+          class="w-50 h-50 mb-4 mb-lg-0"
           src="common/img/logo-bg-colored.webp"
           alt="technalysis-full"
         />
-        <h1 class="display-6 mb-4">lorem ipsum dolor sit amet</h1>
-        <a href="#intro"><img src="common/img/svg/more.svg" alt="more"></a>
+        <div class="d-flex flex-column align-items-center">
+          <h1 class="display-6 text-center mb-4">lorem ipsum dolor sit amet</h1>
+          <a href="#intro"
+            ><img class="w-75 h-75" src="common/img/svg/more.svg" alt="more"
+          /></a>
+        </div>
       </section>
     </main>
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js" async></script>
