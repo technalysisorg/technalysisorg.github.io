@@ -1,0 +1,5 @@
+.cover {
+    background: url(/common/img/svg/method-draw-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,30 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_9">
+   <stop offset="0" stop-color="#ffffaa"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#ff538b"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="0" x2="1" y1="0" x1="0" id="svg_10">
+   <stop offset="0" stop-color="#ffc23a"/>
+   <stop offset="1" stop-opacity="0.99219" stop-color="#ff538b"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_28">
+   <stop offset="0" stop-color="#ffaa56"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#ff538b"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_29">
+   <stop offset="0" stop-color="#ff538b"/>
+   <stop offset="1" stop-opacity="0.99219" stop-color="#ff538b"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="0" x2="1" y1="0" x1="0" id="svg_30">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#ffbf50"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#ffff56"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="46" rx="47" id="svg_1" cy="97" cx="20.5" stroke="url(#svg_29)" fill="url(#svg_28)"/>
+  <path transform="rotate(-101.971, 372.603, 51.5673)" id="svg_3" d="m329.72219,94.76499c-14.38889,-34.11111 -17.11111,-48.11111 -19,-66c-1.88889,-17.88889 7.66667,-32.94444 20.66667,-34.88889c13,-1.94445 34.22222,13.77778 40.27778,20.5c6.05555,6.72222 11.83333,19.77778 14.05556,24.38889c2.22222,4.61111 10.83334,31.66667 21,40c10.16666,8.33333 28,14 28,14c0,0 -90.61111,36.11111 -105,2z" stroke="url(#svg_30)" fill="url(#svg_30)"/>
+  <path stroke-opacity="0.5" id="svg_2" d="m205,205.04274c-14.38889,-34.11111 -17.11111,-48.11111 -19,-66c-1.88889,-17.88889 7.66667,-32.94444 20.66667,-34.88889c13,-1.94445 34.22222,13.77778 40.27778,20.5c6.05555,6.72222 11.83333,19.77778 14.05556,24.38889c2.22222,4.61111 10.83334,31.66667 21,40c10.16666,8.33333 28,14 28,14c0,0 -90.61111,36.11111 -105,2z" stroke="url(#svg_9)" fill="url(#svg_10)"/>
+ </g>
+</svg>
